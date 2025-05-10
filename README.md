@@ -27,12 +27,15 @@ The HR department of a mid-sized company wanted a data-driven solution to:
 - Salary distribution by age, department, education.
 - Job role comparison by salary, job satisfaction, and gender ratio.
 - Interactive filters by department, age group, education field, etc.
+![Overview](https://github.com/VDhakad-Datamind/HR-Analytics-Dashboard/blob/main/Overview.png)
+
 
 ### 🔹 Attrition Page
 - Attrition rate across different job roles, education fields, genders, and income levels.
 - Trend analysis by **job satisfaction** and **monthly income bins**.
 - Attrition insight by business travel and age.
 - Comparison of attrition percentages for HR, R&D, and Sales.
+![Attrition](https://github.com/VDhakad-Datamind/HR-Analytics-Dashboard/blob/main/Attrition.png)
 
 ---
 
