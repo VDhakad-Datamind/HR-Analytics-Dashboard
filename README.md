@@ -6,6 +6,8 @@ This project is a comprehensive HR Analytics Dashboard built in **Power BI** to 
 
 ---
 
+-**Dataset Link**: [HR Dataset](https://github.com/VDhakad-Datamind/HR-Analytics-Dashboard/blob/main/HR_Analytics.csv)
+
 ## 🧩 Business Requirement
 
 The HR department of a mid-sized company wanted a data-driven solution to:
@@ -63,6 +65,7 @@ Overall monthly salary = SUM(HR_Analytics[MonthlyIncome])
 
 Avg Monthly salary = [Overall monthly salary] / [Employee count]
 
+```
 
 ### 📌 2. Attrition Analysis
 
@@ -74,6 +77,7 @@ Attrition rate =
 [attrition count] / CALCULATE([Employee count], ALL(HR_Analytics[Attrition]))
 
 Attrition Target = 0.2
+```
 
 ### 📌 3. Workforce Demographics
 
@@ -83,6 +87,7 @@ Average age = AVERAGE(HR_Analytics[Age])
 Gender Ratio = 
 CALCULATE([Employee count], HR_Analytics[Gender] = "Female") /
 CALCULATE([Employee count], HR_Analytics[Gender] = "Male")
+```
 
 ### 📌 3. Employee Experience & Compensation
 
@@ -90,6 +95,7 @@ CALCULATE([Employee count], HR_Analytics[Gender] = "Male")
 Average Years = AVERAGE(HR_Analytics[YearsAtCompany])
 
 Average Hike = AVERAGE(HR_Analytics[PercentSalaryHike])
+```
 
 ### 📌 3. Satisfaction & Overtime
 
@@ -99,7 +105,7 @@ average job satisfaction_score = AVERAGE(HR_Analytics[JobSatisfaction])
 
 Overtime % = 
 CALCULATE([Employee count], HR_Analytics[OverTime] = "Yes") / [Employee count]
-
+```
 
 
 ## 🧠 Insights & Outcomes
