@@ -120,4 +120,3 @@ CALCULATE([Employee count], HR_Analytics[OverTime] = "Yes") / [Employee count]
 
 ---
 
-## 📁 Repository Structure
